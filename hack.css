@@ -1,0 +1,145 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #000;
+    /* Black background color */
+    color: #39ff14;
+    /* Neon green text color */
+    range:
+        url("images/WhatsApp Image 2024-06-23 at 3.16.50 PM.jpeg"),
+        /* First image */
+        url("images/prudential\ image.png"),
+        /* Second image */
+        url("images/comcast\ image.png");
+    /* Third image */
+    /* Background image paths */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Ensure background covers entire viewport */
+}
+
+header {
+    background-color: rgba(235, 239, 240, 0.5);
+    /* Semi-transparent black background */
+    color: #39ff14;
+    /* Neon green text color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #39ff14;
+    /* Neon green text color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+    /* White text color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #39ff14;
+    /* Neon green text color for all headings */
+}
+
+p,
+li {
+    color: #ffffff;
+
+    line-height: 1.6;
+}
+
+form label {
+    color: #39ff14;
+    /* Neon green text color for form labels */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="submit"] {
+    color: #000;
+    /* Black text color for form inputs */
+    background-color: #39ff14;
+    /* Neon green background for form inputs */
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2ecc71;
+    /* Lighter green on hover */
+}
+
+#sponsors {
+    text-align: center;
+    /* Center align the section content */
+}
+
+#sponsors ul {
+
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    list-style: none;
+    padding: 0;
+}
+
+#sponsors ul li {
+    margin: 0 10px;
+    /* Adjust spacing between images */
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    list-style: none;
+    padding: 0;
+}
+
+#sponsors ul li img {
+    max-width: 100px;
+    /* Limit the maximum width of images */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+footer {
+    background-color: rgba(235, 239, 240, 0.5);
+    /* Semi-transparent black background for footer */
+    color: #fff;
+    /* White text color for footer */
+    text-align: center;
+    padding: 10px 0;
+}
